@@ -16,9 +16,9 @@ https://user.github.io/Reaction_Prediction_AI_ChemPuma ← （GitHub Pages等に
 Cl C C C Br . S c 1 c c n c c 1
 ```
 
-入力すると...
+上記のようにスペース区切りで化学式を入力すると
 
-→ 日本語ロボChemPumaが反応を考えて構造式まで描画してくれます！
+→ 日本語ロボChemPumaが反応を考えて構造式まで描画してくれます
 
 ---
 
@@ -115,7 +115,7 @@ print(result)
 ## 🧑‍💻 Author
 
 Created by [Formalin-K](https://github.com/Formalin-K)  
-Pull requests / Issues always welcome 🚀
+Pull requests / Issues always welcome 
 
 ---
 

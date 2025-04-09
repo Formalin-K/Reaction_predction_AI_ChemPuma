@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>関西弁ロボの化学反応予測</title>
+  <!-- SmilesDrawerの読み込み -->
+  <script src="https://cdn.jsdelivr.net/npm/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+  <!-- 外部CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Welcome画面 -->
+  <div id="welcome-screen" class="welcome-screen">
+    <div class="welcome-content">
+      <h1>ようこそ <span style="color:#2a4d69;">ChemPuma</span> へ。</h1>
+      <button id="start-btn" class="start-button">ChemPumaと話す</button>
+    </div>
+  </div>
+
+  <!-- メインチャット画面 -->
+  <div id="main-screen" class="main-screen hidden">
+    <div class="left-panel">
+      <img src="robot-image.png" alt="関西弁ロボット" />
+    </div>
+
+    <div class="right-panel">
+      <div class="chat-box" id="chat-box">
+        <div class='message bot'>どんな反応を予測したい。smilesで入力してくれ。</div>
+      </div>
+      <div class="input-area">
+        <input type="text" id="smiles-input" placeholder="例: Cl C C C Br . S c 1 c c n c c 1">
+        <button onclick="handleInput()">送信</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 外部JS -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

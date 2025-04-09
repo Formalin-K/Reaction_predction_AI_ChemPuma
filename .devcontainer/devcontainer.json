@@ -1,0 +1,16 @@
+{
+  "name": "simple_smiles_drawer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [8000]
+}
+
+
+
+
+
+
+
+  
+  

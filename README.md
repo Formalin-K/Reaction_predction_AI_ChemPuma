@@ -1,7 +1,7 @@
 ```markdown
 # 🧪 Reaction Prediction AI — ChemPuma
 
-日本語ロボと化学反応予測しよう。  
+化学反応予測する日本語ロボ。  
 SMILES を入力するだけで、反応生成物を予測してくれるインタラクティブな AI アプリです。
 
 ![ChemPuma UI](frontend/robot-image.png)
@@ -12,7 +12,7 @@ SMILES を入力するだけで、反応生成物を予測してくれるイン�
 
 https://user.github.io/Reaction_Prediction_AI_ChemPuma ← （GitHub Pages等にホストしたらここ）
 
-```
+```bash
 Cl C C C Br . S c 1 c c n c c 1
 ```
 
